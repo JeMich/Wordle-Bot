@@ -99,12 +99,12 @@ async def handle_guess(message, guess):
     
     greatAdjectives = ['Fantastic', 'Amazing', 'Outstanding', 'Incredible', 'Superb']
     goodAdjectives = ['Good', 'Nice', 'Solid', 'Reasonable', 'Clever']
+    # Unicode for all emojis can be found here:  https://unicode.org/emoji/charts/full-emoji-list.html
     redBoxEmoji = "\U0001F7E5"
     yellowBoxEmoji = "\U0001F7E8"
     greenBoxEmoji = "\U0001F7E9"
-    # idk why the encoding on these ones broke, but if I ever need to update them the IDs are here https://unicode.org/emoji/charts/full-emoji-list.html
     shockedEmoji = "\U0001F632"
-    heartEmoji = "\U00002764"
+    heartEmoji = "\U0002764"
     closeEmoji = "\U0001F628"
     cryEmoji = "\U0001F622"
     
