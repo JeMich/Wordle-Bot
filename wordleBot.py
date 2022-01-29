@@ -104,7 +104,7 @@ async def handle_guess(message, guess):
     yellowBoxEmoji = "\U0001F7E8"
     greenBoxEmoji = "\U0001F7E9"
     shockedEmoji = "\U0001F632"
-    heartEmoji = "\U0002764"
+    heartEmoji = "\U00002764"
     closeEmoji = "\U0001F628"
     cryEmoji = "\U0001F622"
     
