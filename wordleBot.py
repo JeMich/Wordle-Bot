@@ -103,10 +103,10 @@ async def handle_guess(message, guess):
     yellowBoxEmoji = "\U0001F7E8"
     greenBoxEmoji = "\U0001F7E9"
     # idk why the encoding on these ones broke, but if I ever need to update them the IDs are here https://unicode.org/emoji/charts/full-emoji-list.html
-    shockedEmoji = u'😲'
-    heartEmoji = u'❤️'
-    closeEmoji = u'😨'
-    cryEmoji = u'😢'
+    shockedEmoji = "\U0001F632"
+    heartEmoji = "\U00002764"
+    closeEmoji = "\U0001F628"
+    cryEmoji = "\U0001F622"
     
     cleanGuess = re.sub(r'[^a-zA-Z]', '', guess) 
     if len(cleanGuess) != 5:
